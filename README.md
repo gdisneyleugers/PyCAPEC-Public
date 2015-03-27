@@ -3,7 +3,8 @@ PyCAPEC CAPEC/CWE Mapper and Graphiz visualization tool.
 # To Run
 ./Runner.sh
 Example XSS:
-Gregorys-MacBook-Pro:PyCAPEC gdl$ ./Runner.sh 
+//
+./Runner.sh 
 Search: XSS
 |===========================================|
   CAPEC: 
@@ -71,7 +72,7 @@ CWE:
     "Weakness_Abstraction": "Variant"
 
 |===========================================|
-
+//
 This also creates a graphviz file creating a visualization of CAPEC/CWE labels.
 cat tm-XSS.gv
 // XSS
@@ -103,3 +104,4 @@ digraph{
     "CWE" ->  "87"
     "87" ->  "Improper Neutralization of Alternate XSS Syntax"
 }
+//
