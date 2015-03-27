@@ -5,78 +5,78 @@ PyCAPEC CAPEC/CWE Mapper and Graphiz visualization tool.
 Example XSS:
 //
 ./Runner.sh 
-Search: XSS
-|===========================================|
-  CAPEC: 
-|===========================================|
-CAPEC: 
-    "ID": "86",
-    "Name": "Embedding Script (XSS) in HTTP Headers",
-    "Pattern_Abstraction": "Detailed",
-    "Pattern_Completeness": "Complete",
-    "Status": "Draft"
+      Search: XSS
+      |===========================================|
+      CAPEC: 
+      |===========================================|
+      CAPEC: 
+      "ID": "86",
+      "Name": "Embedding Script (XSS) in HTTP Headers",
+      "Pattern_Abstraction": "Detailed",
+      "Pattern_Completeness": "Complete",
+      "Status": "Draft"
 
-|===========================================|
-CAPEC: 
-    "ID": "91",
-    "Name": "XSS in IMG Tags",
-    "Pattern_Abstraction": "Detailed",
-    "Pattern_Completeness": "Complete",
-    "Status": "Draft"
+    |===========================================|
+      CAPEC: 
+      "ID": "91",
+      "Name": "XSS in IMG Tags",
+      "Pattern_Abstraction": "Detailed",
+      "Pattern_Completeness": "Complete",
+      "Status": "Draft"
 
-|===========================================|
+  |===========================================|
   CWE: 
-|===========================================|
-CWE: 
-    "ID": "712",
-    "Name": "OWASP Top Ten 2007 Category A1 - Cross Site Scripting (XSS)",
-    "Status": "Incomplete"
+  |===========================================|
+  CWE: 
+      "ID": "712",
+      "Name": "OWASP Top Ten 2007 Category A1 - Cross Site Scripting (XSS)",
+      "Status": "Incomplete"
 
-|===========================================|
-CWE: 
-    "ID": "725",
-    "Name": "OWASP Top Ten 2004 Category A4 - Cross-Site Scripting (XSS) Flaws",
-    "Status": "Incomplete"
+  |===========================================|
+  CWE: 
+      "ID": "725",
+      "Name": "OWASP Top Ten 2004 Category A4 - Cross-Site Scripting (XSS) Flaws",
+      "Status": "Incomplete"
 
-|===========================================|
-CWE: 
-    "ID": "811",
-    "Name": "OWASP Top Ten 2010 Category A2 - Cross-Site Scripting (XSS)",
-    "Status": "Incomplete"
+  |===========================================|
+  CWE: 
+      "ID": "811",
+      "Name": "OWASP Top Ten 2010 Category A2 - Cross-Site Scripting (XSS)",
+      "Status": "Incomplete"
 
-|===========================================|
-CWE: 
-    "ID": "931",
-    "Name": "OWASP Top Ten 2013 Category A3 - Cross-Site Scripting (XSS)",
-    "Status": "Incomplete"
+  |===========================================|
+  CWE: 
+      "ID": "931",
+      "Name": "OWASP Top Ten 2013 Category A3 - Cross-Site Scripting (XSS)",
+      "Status": "Incomplete"
 
-|===========================================|
-CWE: 
-    "ID": "80",
-    "Name": "Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS)",
-    "Status": "Incomplete",
-    "Weakness_Abstraction": "Variant"
+  |===========================================|
+    CWE: 
+      "ID": "80",
+      "Name": "Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS)",
+      "Status": "Incomplete",
+      "Weakness_Abstraction": "Variant"
 
-|===========================================|
-CWE: 
-    "ID": "85",
-    "Name": "Doubled Character XSS Manipulations",
-    "Status": "Draft",
-    "Weakness_Abstraction": "Variant"
+  |===========================================|
+    CWE: 
+      "ID": "85",
+      "Name": "Doubled Character XSS Manipulations",
+      "Status": "Draft",
+    " Weakness_Abstraction": "Variant"
 
-|===========================================|
-CWE: 
-    "ID": "87",
-    "Name": "Improper Neutralization of Alternate XSS Syntax",
-    "Status": "Draft",
-    "Weakness_Abstraction": "Variant"
+  |===========================================|
+  CWE: 
+      "ID": "87",
+      "Name": "Improper Neutralization of Alternate XSS Syntax",
+      "Status": "Draft",
+      "Weakness_Abstraction": "Variant"
 
-|===========================================|
-//
+  |===========================================|
+
 This also creates a graphviz file creating a visualization of CAPEC/CWE labels.
 cat tm-XSS.gv
-// XSS
-digraph{ 
+  // XSS
+  digraph{ 
     "CAPEC" ->  "86"
     "86" ->  "Embedding Script (XSS) in HTTP Headers"
 
